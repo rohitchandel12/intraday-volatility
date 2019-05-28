@@ -9,8 +9,7 @@ cd intraday-volatility
 
 #create conda environment with python version
 
-conda create -n intraday-volatility python=3.6
-
+conda create -n intraday-volatility --file requirements.txt
 #activate environment
 
 source activate intraday-volatility
