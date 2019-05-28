@@ -1,4 +1,8 @@
 name: intraday-volatility
+channels:
+- conda-forge
+- anaconda-fusion
+- defaults
 dependencies:
 - blas=1.0=mkl
 - ca-certificates=2019.1.23=0
