@@ -7,9 +7,13 @@ git clone git@github.com:rohitchandel12/intraday-volatility.git
 
 cd intraday-volatility
 
-#create conda environment with python version
+#create conda environment
 
-conda create -n intraday-volatility --file requirements.txt
+conda env create -f environment.yaml
+
 #activate environment
 
 source activate intraday-volatility
+
+# make sure you update environment.yaml whenever you install new package
+conda env export > environment.yaml
